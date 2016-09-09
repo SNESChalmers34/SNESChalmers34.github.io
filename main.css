@@ -23,6 +23,8 @@ div #about {
   div #about p {
     text-align: center;
     margin: 10vh 0; }
+  div #about .description {
+    display: none; }
 div .title {
   margin: 0 auto;
   color: black; }

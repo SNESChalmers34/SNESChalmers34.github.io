@@ -1,3 +1,5 @@
-var about = document.getElementById('about');
-about = about.onmouseover;
-about.style.background='black'
+$('#container').on('hover', function(){
+  $('#about').show('p');
+})
+
+console.log("hello");
