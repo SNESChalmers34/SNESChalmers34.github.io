@@ -1,0 +1,117 @@
+/*General*/
+
+body{
+  background: lightgrey;
+
+}
+
+/*links*/
+a{
+  text-decoration: none;
+}
+
+a:active, a:link, a:visited, a:hover{
+  color: black;
+}
+
+/*NAVBAR (HEADER)*/
+// nav{
+//   margin: 0;
+//   width: 100%;
+// }
+//
+// nav{
+//   height: 3em;
+//   margin: 0 auto;
+//   display: flex;
+//   justify-content: space-around;
+//   background: rgba(255, 0, 0, 0);;
+// }
+//
+// .logo{
+//     width: 50%
+// }
+
+/*CONTENT*/
+// .container{
+//   width: 100%;
+// }
+
+div{
+  #about{
+    display: inline-block;
+    background: lightblue;
+    height: 100vh;
+    width: 20%;
+    position: absolute;
+    left:0;
+    top:0;
+    box-sizing: border-box;
+      p{
+        text-align: center;
+        margin: 10vh 0;
+      }
+  }
+
+  .title{
+    margin: 0 auto;
+    color:black;
+  }
+
+
+  #resume{
+    display: inline-block;
+    background: lightpink;
+    position: absolute;
+    width:80%;
+    height: 25vh;
+    margin-left: 20%;
+      p{
+          text-align: center;
+        margin: 12.5vh 0;
+      }
+  }
+
+  #portfolio{
+    display: inline-block;
+    background: lightgreen;
+    position:absolute;
+    top: 25vh;
+    left:20%;
+    height:55vh;
+    width: 60%;
+      p{
+        text-align: center;
+        margin: 10vh 0;
+      }
+
+  }
+
+  #gallery{
+    display: inline-block;
+    background: lightyellow;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    height:75vh;
+    width:20%;
+    p{
+      text-align: center;
+      margin: 10vh 0;
+    }
+  }
+
+  #contact{
+    display: inline-block;
+    background: teal;
+    position:absolute;
+    bottom: 0;
+    margin-left: 20%;
+    height: 20vh;
+    width:60%;
+    p{
+        text-align: center;
+      margin: 10vh 0;
+    }
+  }
+}
