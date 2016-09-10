@@ -25,6 +25,10 @@ div #about {
     margin: 10vh 0; }
   div #about .description {
     display: none; }
+  div #about:hover .description {
+    display: block; }
+    div #about:hover .description #about {
+      background: rgba(0, 0, 0, 0.5); }
 div .title {
   margin: 0 auto;
   color: black; }

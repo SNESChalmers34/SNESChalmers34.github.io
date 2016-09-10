@@ -54,6 +54,12 @@ div{
        .description{
         display: none;
       }
+      &:hover .description{
+        display: block;
+        #about{
+          background: rgba(0, 0, 0, 0.5);
+        }
+      }
   }
 
   .title{
@@ -87,7 +93,6 @@ div{
         text-align: center;
         margin: 10vh 0;
       }
-
   }
 
   #gallery{
